@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 	<data>
-		<record model="ir.actions.act_window" id="action_musica_canco">
-			<field name="name">Accio Canco</field>
-			<field name="res_model">musica.canco</field>
+		<record model="ir.actions.act_window" id="action_zoo_animal_tree">
+			<field name="name">Animal</field>
+			<field name="res_model">zoo.animal</field>
 			<field name="view_mode">tree,form</field>
 		</record>
 
-		<record model="ir.actions.act_window" id="action_musica_artista">
-			<field name="name">Accio Artista</field>
-			<field name="res_model">musica.artista</field>
+		<record model="ir.actions.act_window" id="action_zoo_especie_tree">
+			<field name="name">Especie</field>
+			<field name="res_model">zoo.especie</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<record model="ir.actions.act_window" id="action_zoo_zoo_tree">
+			<field name="name">Zoo</field>
+			<field name="res_model">zoo.zoo</field>
 			<field name="view_mode">tree,form</field>
 		</record>
 
